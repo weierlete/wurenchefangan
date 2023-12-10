@@ -1,0 +1,6 @@
+<launch>
+    <!-- <include file="$(find gazebo_ros)/launch/empty_world.launch" /> -->
+    <include file="$(find car_model)/launch/gaosu_world.launch" />
+    <include file="$(find car_model)/launch/spawn_car.launch" />
+    
+</launch>
